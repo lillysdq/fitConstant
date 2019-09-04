@@ -30,7 +30,7 @@ public class FitExtension {
 	}
 }
 
-extension NSLayoutConstraint {
+public extension NSLayoutConstraint {
 	
 	@IBInspectable var fitConstant: Bool {
 		set {
@@ -70,7 +70,7 @@ extension NSLayoutConstraint {
 	
 }
 
-extension UILabel {
+public extension UILabel {
 	
 	@IBInspectable var isFitFont: Bool {
 		set {
